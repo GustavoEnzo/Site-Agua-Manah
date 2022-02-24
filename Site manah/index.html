@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agua Manah</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="aparence.css" />
+  </head>
+  <body>
+    <!--Menu-->
+    <nav
+      class="navbar col-12 position-fixed m-auto navbar-expand-lg navbar navbar-dark bg-primary"
+      style="z-index: 999"
+    >
+      <a class="navbar-brand h1" href="index.html">
+        <img src="imagens/logo manah.png" width="130px" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado"
+        aria-expanded="false"
+        aria-label="Alterna navegação"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse navbar col-10"
+        id="conteudoNavbarSuportado"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Solicitar cotação <span class="sr-only">(página atual)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#hora"
+              >Funcionamento <span class="sr-only">(página atual)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              style="color: white"
+            >
+              Contatos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#contatos">Telefone</a>
+              <a class="dropdown-item" href="#rede">Redes Sociais</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#endereço">Endereço</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div style="text-align: center">
+      <img class="logo" width="250px" src="/imagens/logo manah.png" />
+    </div>
+    <br />
+    <br />
+    <!--Slide-->
+    <div id="slide" class="container">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="imagens/manah1.jpg"
+              class="img-fluid"
+              alt="Responsive image"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="imagens/manah 2.jpg"
+              class="img-fluid"
+              alt="Responsive image"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="imagens/manah3.jpg"
+              class="img-fluid"
+              alt="Responsive image"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+    <br />
+    <br />
+    <!-- Cards -->
+
+    <div class="card-deck">
+      <div id="contatos" class="card">
+        <a href="tel:(86) 98171-9256">
+          <img
+            class="card-img-top"
+            src="imagens/numero.png"
+            alt="Imagem de capa do card"
+        /></a>
+        <div class="card-body">
+          <h4 class="card-title">Contatos</h4>
+          <h5 class="card-text">(86) 98171-9256</h5>
+        </div>
+        <a href="tel:(86) 98171-9256" class="btn btn-primary">Ligar agora </a>
+      </div>
+      <div class="card">
+        <img
+          class="card-img-top"
+          src="imagens/2020-02-15.jpg"
+          alt="Imagem de capa do card"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Pontos de vendas(Revendedores)</h5>
+          <p class="card-text">
+            Veja alguns revendedores e seus pontos de venda
+          </p>
+        </div>
+        <a href="#" class="btn btn-primary">Saiba mais</a>
+      </div>
+      <div id="endereço" class="card">
+        <a
+          href="https://www.google.com/maps/place/Água+Manah/@-5.2060147,-42.7578972,16.5z/data=!4m5!3m4!1s0x78e334c125a048b:0xd30ccd36a9ee7220!8m2!3d-5.2062773!4d-42.7554206"
+        >
+          <img
+            class="card-img-top"
+            src="imagens/Mapa.png"
+            alt="Imagem de capa do card"
+        /></a>
+        <br />
+        <br />
+        <div class="card-body">
+          <h3 class="card-title">
+            <span>Endereço</span>
+          </h3>
+          <h5 class="card-text">
+            Av. Prefeito Wall Ferraz 19999 <br />
+            Pedra Miuda <br />
+            Teresina - PI <br />
+            64038-030 <br />
+            Brasil
+          </h5>
+        </div>
+        <a
+          href="https://www.google.com/maps/place/Água+Manah/@-5.2060147,-42.7578972,16.5z/data=!4m5!3m4!1s0x78e334c125a048b:0xd30ccd36a9ee7220!8m2!3d-5.2062773!4d-42.7554206"
+          class="btn btn-primary"
+          >Veja mais</a
+        >
+      </div>
+    </div>
+
+    <div id="hora" class="funcionamento">
+      <h3>Horário de funcioamento</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col"><a>seg</a></div>
+          <div class="col"><a>07:00 – 17:00</a></div>
+          <div class="w-100"></div>
+          <div class="col">
+            <a>
+              ter <br />
+              qua <br />qui <br />sex <br />sab <br />dom
+            </a>
+          </div>
+          <div class="col">
+            <p>
+              07:00 – 17:00 <br />07:00 – 17:00 <br />07:00 – 17:00 <br />07:00
+              – 17:00 <br />07:00 – 11:00 <br />
+              fechado
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <footer>
+      <div id="rede">
+        <h3>Rede social</h3>
+        <a href="https://www.instagram.com/aguamanah/"
+          ><img width="30" src="/imagens/instagram (1).png" alt="" />
+          <button type="button" class="btn btn-primary btn-lg">
+            @aguamanah
+          </button></a
+        >
+      </div>
+      <div class="copy">
+        <h6>2022 Gustavo Enzo Copyright</h6>
+      </div>
+    </footer>
+  </body>
+</html>
